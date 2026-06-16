@@ -1,5 +1,5 @@
 {
-   "name": "@crysnovax/baileys",
+   "name": "@dinzid04/baileys",
    "version": "2.6.0",
    "description": "Premium Baileys fork ⚉ Meta compositing, bot planning replay, welcome flow, rich messages (code, table, LaTeX, reels), interactive messages, albums, and more.",
    "main": "lib/index.js",
@@ -12,7 +12,7 @@
    },
    "repository": {
       "type": "git",
-      "url": "https://web.crysnovax.link"
+      "url": "https://nimedinz.my.id"
    },
    "files": [
       "lib/**/*",
@@ -41,8 +41,8 @@
       "whatsapp-group",
       "whatsapp-web"
    ],
-   "homepage": "https://www.npmjs.com/package/@crysnovax/baileys/",
-   "author": "crysnovax",
+   "homepage": "https://www.npmjs.com/package/@dinzid04/baileys/",
+   "author": "dinzid04",
    "license": "MIT",
    "dependencies": {
       "@adiwajshing/keyed-db": "^0.2.4",
@@ -62,10 +62,10 @@
    "peerDependencies": {
       "@napi-rs/image": "~1.12.0",
       "audio-decode": "^2.2.3",
+      "better-sqlite3": "^11.0.0",
       "jimp": "^1.6.1",
       "link-preview-js": "^3.0.0",
-      "sharp": "*",
-      "better-sqlite3": "^11.0.0"
+      "sharp": "*"
    },
    "peerDependenciesMeta": {
       "@napi-rs/image": {
@@ -74,13 +74,13 @@
       "audio-decode": {
          "optional": true
       },
+      "better-sqlite3": {
+         "optional": true
+      },
       "jimp": {
          "optional": true
       },
       "link-preview-js": {
-         "optional": true
-      },
-      "better-sqlite3": {
          "optional": true
       }
    },
@@ -114,5 +114,8 @@
       "tmp": "^0.2.5",
       "underscore": "^1.13.8",
       "yaml@npm:^2.6.1": "^2.8.4"
+   },
+   "devDependencies": {
+      "audio-decode": "^3.10.2"
    }
 }
